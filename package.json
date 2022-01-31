@@ -1,0 +1,33 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "build": "tsc",
+    "dev": "nodemon ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/shortid": "^0.0.29",
+    "mongoose": "^6.1.8"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "eslint": "^8.8.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5"
+  },
+  "description": ""
+}
